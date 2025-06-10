@@ -25,8 +25,12 @@ export default function Register() {
       });
       console.log('Registration successful');
       navigate('/Admin'); // Redirect to Admin page after successful registration
-    } catch (err) {
-      setError('เกิดข้อผิดพลาดในการลงทะเบียน');
+    } catch (err: any) {
+      if (err.response && err.response.data && err.response.data.tb_username) {
+        setError('Username นี้มีผู้ใช้งานแล้ว');
+      } else {
+        setError('เกิดข้อผิดพลาดในการลงทะเบียน');
+      }
     }
   };
 
