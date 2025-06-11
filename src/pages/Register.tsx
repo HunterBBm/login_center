@@ -87,7 +87,7 @@ export default function Register() {
         />
         <button
           type="submit"
-          style={{ padding: 12, borderRadius: 6, border: 'none', background: 'linear-gradient(90deg, #4caf50, #2196f3)', color: '#fff', fontWeight: 'bold', fontSize: 16, cursor: 'pointer', marginTop: 8 }}
+          style={{ padding: 12, borderRadius: 6, border: 'none', background: 'linear-gradient(90deg,rgb(77, 124, 156), #2196f3)', color: '#fff', fontWeight: 'bold', fontSize: 16, cursor: 'pointer', marginTop: 8 }}
         >
           Register
         </button>

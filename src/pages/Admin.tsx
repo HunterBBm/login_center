@@ -41,7 +41,7 @@ export default function Admin() {
 
   return (
     <div className="admin-container">
-      <h2 className="admin-title">Admin Dashboard</h2>
+      <h2 className="admin-title">Data User</h2>
       <div className="admin-actions">
         <button
           className="admin-button register-button"
